@@ -43,6 +43,24 @@ To evaluate the trained model I used precision, recall and f1-score. Ultimately 
 | weighted avg | 0.992 | 0.992 | 0.992    | 30512   |
 
 
+<b>Features used</b>
+- Bias
+- The word itself
+- Whether the word's first letter is uppercase
+- Whether the word is entirely uppercase
+- Whether the word consists only of digits
+- The shape of the word
+- The suffix of the word (last 3 and last 2 letters)
+- The prefix of the word (first 3 and first 2 letters)
+- Whether the word exists in a gazetteer
+- Whether the word is at the beginning or end of the sentence
+- The word(s) before and after the word
+- Whether the word(s) before/after first letter are uppercase
+- Whether the word(s) before/after are entirely uppercase
+- Whether the word(s) before/after consists only of digits
+- Whether the word(s) before/after are punctuation tokens.
+
+
 <b>Possible (future) to-do's</b>
 
 - Retrain model on data with POS tags.
