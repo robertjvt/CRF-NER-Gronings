@@ -6,6 +6,8 @@ Named entity recognition based on Conditional Random Fields model for the region
 
 <b>Evaluation</b>
 
+To evaluate the trained model I used precision, recall and f1-score. Ultimately the macro average of the f1-score is mostly used to estimate how well the model performs.
+
 <i>Model</i>
 | Label | Precision | Recall | F1-score | Support |
 | ----- | --------- | ------ | -------- | ------- |
@@ -42,6 +44,7 @@ Named entity recognition based on Conditional Random Fields model for the region
 
 
 <b>Possible (future) to-do's</b>
+
 - Retrain model on data with POS tags.
 - Retrain model on more/better annotated data.
 - Retrieve names of organizations in The Netherlands/Groningen from KVK.
