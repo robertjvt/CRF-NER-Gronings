@@ -1,7 +1,7 @@
 # NER for Gronings
 <b>About</b>
 
-Named entity recognition based on Conditional Random Fields model for the regional language Gronings. Developed for a bachelor thesis in Information Science at the Rijksuniversiteit Groningen.
+Named entity recognition based on Conditional Random Fields model for the regional language Gronings. Developed for my bachelor thesis in Information Science at the Rijksuniversiteit Groningen.
 
 
 <b>Evaluation</b>
