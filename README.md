@@ -41,7 +41,7 @@ Named entity recognition based on Conditional Random Fields model for the region
 | weighted avg | 0.992 | 0.992 | 0.992    | 30512   |
 
 
-<b>To-do's</b>
+<b>Possible (future) to-do's</b>
 - Retrain model on data with POS tags.
 - Retrain model on more/better annotated data.
 - Retrieve names of organizations in The Netherlands/Groningen from KVK.
